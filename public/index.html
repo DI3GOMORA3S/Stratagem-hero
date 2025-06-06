@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stratagem Hero</title>
+    <link rel="icon" href="./images/icons/helldivers.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background"></div>
+
+    <div id="overlay" class="overlay"></div>
+    <div id="popup">
+        <img class="stratagem" src="./images/icons/super-earth-logo.webp" alt="">
+        <p>Bienvenido, esto es un juego hecho por un fan sin ánimo de lucro.</p>
+        <button onclick="closePopup()">Cerrar</button>
+    </div>
+
+    <div id="game-container">
+        <h1 style="color: white;" >Stratagem Hero</h1>
+        <button id="testButton" onclick="startGame()" >Start</button>
+        <div id="cont-str"></div>
+        <h3 id="str-name" >EJ ESTRATAGEMA</h3>
+        <div id="cont-keys">
+        </div>
+    </div>    
+    <script src="js/index.js"></script>
+</body>
+</html>
